@@ -90,7 +90,7 @@ if btn_process:
 
                 # Eksekusi Gemini 2.5 Flash (Model Cepat, Multimodal, & Gratis di Free Tier)
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-1.5-flash',
                     contents=contents_payload
                 )
 
